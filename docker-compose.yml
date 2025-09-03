@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    command: ["owm", "serve", "examples/sample.json"]
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app
+

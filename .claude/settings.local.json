@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest tests/ -v --tb=short)",
+      "Bash(python3 -m pytest tests/ -v --tb=short)",
+      "Bash(python3 -m pytest tests/test_logging.py::TestJSONFormatter::test_with_exception tests/test_security.py::TestSanitizeString::test_allow_newlines tests/test_security.py::TestSafeFilename::test_dangerous_characters tests/test_security.py::TestSafeFilename::test_only_dangerous_chars -v)",
+      "Bash(python3 -m pytest tests/test_logging.py::TestJSONFormatter::test_with_exception tests/test_security.py::TestSafeFilename::test_dangerous_characters -v)",
+      "Bash(python3:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

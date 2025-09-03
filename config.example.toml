@@ -1,0 +1,29 @@
+environment = "dev"
+
+[storage]
+backend = "jsonl" # memory|jsonl|postgres
+jsonl_path = "./data/emissions.jsonl"
+
+[alerts]
+slack_webhook_url = "https://hooks.slack.com/services/T000/B000/XXX"
+email_smtp_host = "localhost"
+email_smtp_port = 25
+email_username = ""
+email_password = ""
+email_use_tls = false
+email_from = "noreply@example.com"
+email_to = ["ops@example.com"]
+
+[analytics]
+anomaly_method = "robust_z"
+anomaly_z_threshold = 3.5
+seasonal_period = 24
+
+[compliance]
+threshold_kg_per_h = 10.0
+remediation_due_days = 7
+
+[server]
+host = "127.0.0.1"
+port = 8000
+

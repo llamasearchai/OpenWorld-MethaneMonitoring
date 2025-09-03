@@ -1,0 +1,9 @@
+site_name: OpenWorld Methane Monitoring
+nav:
+  - Home: index.md
+docs_dir: docs
+theme:
+  name: material
+  features:
+    - content.code.copy
+

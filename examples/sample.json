@@ -1,0 +1,5 @@
+[
+  {"timestamp": "2025-01-01T00:00:00Z", "site_id": "site-1", "region_id": "region-2", "value": 4.5, "unit": "kg/h"},
+  {"timestamp": "2025-01-01T00:10:00Z", "site_id": "site-1", "region_id": "region-2", "value": 4.8, "unit": "kg/h"},
+  {"timestamp": "2025-01-01T00:20:00Z", "site_id": "site-1", "region_id": "region-2", "value": 6.5, "unit": "kg/h"}
+]
