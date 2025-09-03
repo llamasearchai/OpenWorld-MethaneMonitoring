@@ -387,4 +387,4 @@ By contributing to OpenWorld Methane Monitoring, you agree that your contributio
 
 ---
 
-Thank you for contributing to OpenWorld Methane Monitoring! Your efforts help improve environmental monitoring capabilities worldwide. 🌍
+Thank you for contributing to OpenWorld Methane Monitoring! Your efforts help improve environmental monitoring capabilities worldwide.
